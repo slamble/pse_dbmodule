@@ -16,7 +16,7 @@ class databases (Array $dbs = [ { "name" => "db1", "pass" => "pass1" },
     root_password => "ultrasecurepassword",
     remove_default_accounts => true,
   }
-  $dbs.each |Integer $index, Hash $dbdata| {
+  $dbs.each |Hash $dbdata| {
     $name = $dbdata[name]
     $pass = $dbdata[pass]
     mysql::db { $name:
