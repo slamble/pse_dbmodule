@@ -8,7 +8,7 @@ class databases (Array $dbs = [ { "name" => "db1", "pass" => "pass1" },
 				{ "name" => "db2", "pass" => "pass2" },
 				{ "name" => "db3", "pass" => "pass3" },
 				{ "name" => "db4", "pass" => "pass4" },
-				{ "name" => "db5", "pass" => "pass5" },
+				{ "name" => "db5", "pass" => "pass5" } ] )
 
 {
   #$dbnames = [ 'db1', 'db2', 'db3', 'db4', 'db5' ]
