@@ -11,7 +11,7 @@ class databases (Array $dbs = [ { "name" => "db1", "pass" => "pass1" },
 				{ "name" => "db5", "pass" => "pass5" } ] )
 
 {
-  notify { "Databases module coming from master branch.": }
+  notify { "Databases module coming from dev branch.": }
   #$dbnames = [ 'db1', 'db2', 'db3', 'db4', 'db5' ]
   class { '::mysql::server':
     root_password => "ultrasecurepassword",
